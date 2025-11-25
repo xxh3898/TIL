@@ -1,5 +1,5 @@
 # 📅 <% tp.date.now("YYYY-MM-DD (ddd)") %> 데일리 회고록
-**🏷️ Tags:** #자바 #JSP #<% tp.date.now("MM월") %>
+**🏷️ Tags:** #React #JS#<% tp.date.now("MM월") %>
 
 ---
 
