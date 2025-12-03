@@ -1,4 +1,5 @@
-# [프로젝트명] 개발 일지 - Day 15
+# 프로젝트명 개발 일지 - Day 15
+<% tp.date.now("YYYY-MM-DD") %>
 
 ## 1. ✅ 오늘 한 일 (Today I Did)
 - [FE] 로그인 페이지 UI 퍼블리싱 완료
