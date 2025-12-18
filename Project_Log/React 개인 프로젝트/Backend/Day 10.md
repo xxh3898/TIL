@@ -1,4 +1,4 @@
-# 📝 Cubing Hub 개발 일지 - Day 1
+# 📝 Cubing Hub 개발 일지 - Day 10
 2024-12-11 | 🏷️ Tags: #Project #Fullstack #SpringBoot #React #Refactoring
 
 ## 1. ✅ 오늘 한 일 (Done)

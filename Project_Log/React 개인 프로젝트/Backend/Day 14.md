@@ -1,4 +1,4 @@
-# 📝 CUBE Project 개발 일지 - Day 2
+# 📝 CUBE Project 개발 일지 - Day 14
 2025-12-15 | 🏷️ Tags: #Project #DevLog #SpringBoot #React #FullStack
 
 ## 1. ✅ 오늘 한 일 (Done)
