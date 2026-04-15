@@ -38,6 +38,10 @@ Temporary Items
 # config dir
 .obsidian/
 
+# Keep the public TIL repo focused on learning content.
+Career/
+Archive/
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
