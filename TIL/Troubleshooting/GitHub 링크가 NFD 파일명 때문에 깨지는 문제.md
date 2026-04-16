@@ -86,5 +86,5 @@ source_ref: public-unicode-normalization, comma-link-compatibility
 ## Internal Links
 
 - [[Areas/PKM]]
-- [[AI/20260416/05-public-unicode-normalization/review-public-unicode-normalization]]
-- [[AI/20260416/07-comma-link-compatibility/review-comma-link-compatibility]]
+- [[AI/pkm/20260416/05-public-unicode-normalization/review-public-unicode-normalization]]
+- [[AI/pkm/20260416/07-comma-link-compatibility/review-comma-link-compatibility]]
