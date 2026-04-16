@@ -1,71 +1,121 @@
-# 🌱 Today I Learned (TIL)
+# PKM
 
-> **"복사 붙여넣기보다, 한 줄이라도 이해하고 기록합니다."** <br>
-> 매일의 배움을 기록하고 성장하는 예비 개발자의 학습 저장소입니다.
+개인 PKM(Personal Knowledge Management) 저장소다.  
+백엔드 개발 학습, 프로젝트 문서, 회고, 템플릿을 한 곳에서 관리하고, GitHub에는 공개 가능한 범위만 선별해서 추적한다.
 
-<br>
+## 이 저장소에서 다루는 것
 
-## 🧑🏻‍💻 About Me
-**"기본기가 튼튼한 정보통신공학 전공자"**
+- Java / Spring Boot 중심 학습 기록
+- DevQ&A, Troubleshooting, Study Notes 같은 재사용 가능한 노트
+- 프로젝트 문서와 개발 로그
+- 회고와 템플릿
 
-대학에서 정보통신을 전공하며 CS(Computer Science) 기초를 다졌고, 현재는 실무 역량을 키우기 위해 국비 과정을 병행하며 몰입하고 있습니다. <br> 
-단순히 코드가 돌아가는 것에 만족하지 않고, '왜(Why)'와 '어떻게(How)'에 집중합니다.
+## 공개 추적 범위
 
-- **Role:** Backend Developer (Java / Spring Boot)
-- **Major:** 정보통신공학부 (졸업 예정)
-- **Email:** chiho3898@gmail.com
-- **Github:** [github.com/xxh3898](https://github.com/xxh3898)
+이 저장소는 로컬 PKM 전체를 그대로 올리지 않고, 아래 범위만 공개 추적한다.
 
-<br>
+- `TIL/**`
+- `Templates/**`
+- `Projects/**`
+- `Archive/Projects/**`
+- 루트 `README.md`
 
-## 🛠 Tech Stack
+반대로 아래는 로컬 전용 또는 비공개 범위라 기본적으로 추적하지 않는다.
 
-| Category | Stack |
-| :--- | :--- |
-| **Backend** | <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/JSP-007396?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=Spring%20Boot&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=Oracle&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> |
-| **Frontend** | <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=white"/> |
-| **Tools** | <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=IntelliJ%20IDEA&logoColor=white"/> <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=Visual%20Studio%20Code&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/> |
+- `AI/**`
+- `Areas/**`
+- `Resources/**`
+- `Archive/**` 중 `Archive/Projects/**`를 제외한 나머지
+- `Assets/**`
+- `Inbox/**`
+- `.obsidian/**`
+- `CodingTests/**`
+- `Projects/Portfolio/**`
+- `*.internal.md`
 
-<br>
+## 현재 로컬 볼트 구조
 
-## 🚀 My Another Universes
-특정 분야의 집중적인 학습 기록은 별도 리포지토리에서 관리합니다.
+```text
+PKM/
+├── AI/           # 작업 산출물
+├── Archive/      # 종료된 프로젝트와 보관 문서
+├── Areas/        # 지속 관리 영역
+├── Assets/       # 이미지, PDF, 첨부 파일
+├── CodingTests/  # 별도 nested repo 성격의 코딩테스트 저장소
+├── Inbox/        # 미분류 메모
+├── Projects/     # 진행 중인 프로젝트 문서
+├── Resources/    # 책, 레퍼런스 자료
+├── TIL/          # 학습, 회고, 트러블슈팅
+└── Templates/    # 재사용 템플릿
+```
 
-| Repository | Description | Status |
-| :--- | :--- | :--- |
-| **[CodingTests](https://github.com/xxh3898/CodingTests)** | 🧩 백준, 프로그래머스 알고리즘 문제 풀이 아카이브 | ![Active](https://img.shields.io/badge/-Active-green) |
-| **[Certifications](https://github.com/xxh3898/Certifications)** | 🏆 정처기, SQLD, 리눅스마스터 등 자격증 학습 노트 | ![Active](https://img.shields.io/badge/-Active-green) |
+로컬 사용 기준의 자세한 분류 규칙은 로컬 전용 내부 가이드 `PKM Guide.md`에서 관리한다.
 
-<br>
+## 공개 문서에서 주로 보게 되는 영역
 
-## 📝 Study Rules
-저의 TIL은 단순한 요약이 아닌, **문제 해결과 사고의 과정**을 담습니다.
+### `TIL`
 
-1.  **No Copy-Paste:** 코드를 복사해오더라도 반드시 한 줄씩 읽고 제 언어로 주석을 답니다.
-2.  **Trouble Shooting:** 에러가 발생하면 원인과 해결 과정을 기록하여 자산으로 만듭니다.
-3.  **Keep Consistency:** 느리더라도 매일 꾸준히 잔디를 심습니다.
+- `DevQ&A`
+  - 면접/실무 대비 질문과 답변 정리
+- `Troubleshooting`
+  - 문제 원인과 해결 과정을 남긴 트러블슈팅 노트
+- `Study Notes`
+  - 개념을 재사용 가능한 형태로 정리한 학습 노트
+- `Retrospectives`
+  - 일간/주간 회고와 레거시 학습 기록
 
-<br>
+### `Projects`
 
-## 📂 Directory Structure
-이 저장소는 다음과 같이 관리됩니다.
+- 현재는 `Cubing Hub` 프로젝트 문서를 공개 추적한다.
+- 설계 문서, 개발 로그, 트러블슈팅, 프로젝트 인덱스를 포함한다.
 
-```bash
-📦 TIL (Today I Learned)
- ┣ 📂 StudyNotes
- ┃ ┣ 📂 Java               # 자바 언어적 특성, 문법 심화
- ┃ ┣ 📂 SpringBoot         # 스프링 프레임워크 학습
- ┃ ┣ 📂 CS                 # 네트워크(TCP/IP), OS, DB 이론 등
- ┃ ┗ 📂 Frontend           # JS, jQuery, React 등
- ┃
- ┣ 📂 Retrospectives       # 매일 수업 내용 & 일일 회고 (KPT 방식)
- ┃
- ┣ 📂 Project_Log          # 프로젝트 진행 과정의 상세 기록
- ┃
- ┣ 📂 TroubleShooting      # 에러 및 해결 모음
- ┃
- ┣ 📂 DevQ&A               # 면접 대비 개념 학습
- ┃
- ┣ 📂 Templates            # 마크다운 양식들
- ┃
- ┗ 📜 README.md            # 메인 소개글
+주요 진입 문서:
+
+- [Cubing Hub Index](./Projects/Cubing%20Hub/Cubing%20Hub.md)
+- [Cubing Hub README](./Projects/Cubing%20Hub/README.md)
+
+### `Archive/Projects`
+
+- 완료된 프로젝트 문서와 회고성 기록을 공개 추적한다.
+- 현재는 `CalmDesk`, `MediFlow`, `React 개인 프로젝트` 아카이브가 포함된다.
+
+주요 진입 문서:
+
+- [CalmDesk Archive](./Archive/Projects/CalmDesk/CalmDesk.md)
+- [MediFlow Archive](./Archive/Projects/MediFlow/MediFlow.md)
+
+### `Templates`
+
+- `Daily Log`, `TIL`, `DevQ&A`, `Troubleshooting`, `Weekly Review`, `Coding Test Note`
+- 프로젝트 문서용 `Project Docs/**`
+
+대표 템플릿:
+
+- [DevQ&A Template](./Templates/DevQ&A.md)
+- [Troubleshooting Template](./Templates/Troubleshooting.md)
+- [Weekly Review Template](./Templates/Weekly%20Review.md)
+- [Project Overview Template](./Templates/Project%20Docs/Project%20Overview.md)
+
+## 로컬 운영 흐름
+
+로컬 Obsidian 볼트에서는 아래 흐름으로 사용한다.
+
+- 메인 진입점: `Dashboard.md`
+- 보조 진입점: `Weekly Dashboard.md`, `CodingTests Dashboard.md`
+- 생성 흐름: `QuickAdd` + `Templates/**`
+- 구조 가이드: 로컬 전용 내부 문서 `PKM Guide.md`
+
+이 대시보드, `PKM Guide.md`, 플러그인 설정은 로컬 사용 기준이며, GitHub에는 기본적으로 추적하지 않는다.
+
+## 운영 원칙
+
+- 공개 문서는 상대 Markdown 링크를 기본으로 사용한다.
+- 공개 범위 파일명은 Unicode `NFC`를 유지한다.
+- 내부 메모는 `.internal.md`로 구분하고 공개 추적에서 제외한다.
+- 자동 생성 산출물과 사람이 직접 정리한 노트를 구분한다.
+- 허브 문서와 핵심 문서만 자연스럽게 연결하고, 사실 기록성 로그에는 억지 링크를 늘리지 않는다.
+
+## 참고
+
+- 코딩테스트 학습은 로컬 볼트 안 `CodingTests/` nested repo에서 관리한다.
+- 포트폴리오 정적 사이트 원본은 로컬 `Projects/Portfolio/`에 보존하지만, PKM 메인 공개 추적에서는 제외한다.
