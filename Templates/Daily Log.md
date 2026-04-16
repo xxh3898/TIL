@@ -41,7 +41,7 @@ project:
 
 ## 내일 할 일
 
-- [ ]
+- 
 
 ## Internal Links
 
