@@ -47,3 +47,4 @@ project:
 
 - [HTTP와 REST API 설계 원칙](./HTTP와%20REST%20API%20설계%20원칙.md)
 - [API 문서화 도구 비교: Spring Rest Docs vs Swagger](./Spring%20Rest%20Docs%20vs%20Swagger.md)
+- [SQL 성능과 조회 설계 기초](./SQL%20성능과%20조회%20설계%20기초.md)
