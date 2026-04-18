@@ -2,7 +2,7 @@
 note_type: project_index
 status: active
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-04-17
 tags:
   - project-index
 area:
