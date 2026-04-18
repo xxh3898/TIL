@@ -2,7 +2,7 @@
 note_type: project_index
 status: archived
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-04-18
 tags:
   - project-index
 area:
@@ -13,14 +13,17 @@ project: "CalmDesk"
 
 ## Summary
 
-- KDT 파이널 프로젝트 `CalmDesk`의 보관 문서 모음
-- `Docs`, 이슈 로그, 데일리 스크럼, 데일리 회의록, 주간 회의록을 여기서 함께 관리
+- KDT 파이널 프로젝트 `CalmDesk`의 보관 문서 허브
+- 기존 회의록과 이슈 로그에 더해, 프로젝트 개요/아키텍처/포트폴리오 설명용 문서를 함께 관리
 
 ## Quick Links
 
 - [Project README](./Docs/README.md)
+- [Project Overview](./Docs/Project%20Overview.md)
+- [System Architecture](./Docs/System%20Architecture.md)
 - [API Specification](./Docs/API%20명세서.md)
 - [MyPage Guide](./Docs/MYPAGE-GUIDE.md)
+- [Portfolio Notes](./Docs/portfolio.internal.md)
 - [Project Plan](./Log/파이널%20프로젝트%20수행계획서.md)
 - [Planning Q&A](./Log/기획%20발표%20질문.md)
 
@@ -35,6 +38,16 @@ project: "CalmDesk"
 ```dataview
 TABLE WITHOUT ID file.link AS "Doc", updated AS "Updated"
 FROM "Archive/Projects/CalmDesk/Docs"
+WHERE !contains(file.path, ".internal.md")
+SORT updated DESC
+```
+
+## Internal Docs
+
+```dataview
+TABLE WITHOUT ID file.link AS "Doc", updated AS "Updated"
+FROM "Archive/Projects/CalmDesk/Docs"
+WHERE contains(file.path, ".internal.md")
 SORT updated DESC
 ```
 
