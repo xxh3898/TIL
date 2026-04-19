@@ -43,7 +43,7 @@ project: "Cubing Hub"
 
 ## 주요 설계 결정 추적
 
-- 인증/인가 구조: [Authentication & Authorization Design](Authentication%20%26%20Authorization%20Design.md), [API Specification](API%20Specification.md), [Day 12](../Log/Development%20Log/Day%2012.md), [Day 14](../Log/Development%20Log/Day%2014.md), [Day 15](../Log/Development%20Log/Day%2015.md)
+- 인증/인가 구조: [Authentication & Authorization Design](Authentication%20&%20Authorization%20Design.md), [API Specification](API%20Specification.md), [Day 12](../Log/Development%20Log/Day%2012.md), [Day 14](../Log/Development%20Log/Day%2014.md), [Day 15](../Log/Development%20Log/Day%2015.md)
 - 랭킹 V1 -> V2 전략: [Project Overview](Project%20Overview.md), [API Specification](API%20Specification.md), [Day 10](../Log/Development%20Log/Day%2010.md), [Internal Schedule](Internal%20Schedule.internal.md)
 - 프런트 mock -> 실연동 전환: [Screen Specification](Screen%20Specification.md), [Day 13](../Log/Development%20Log/Day%2013.md), [Day 14](../Log/Development%20Log/Day%2014.md), [Day 16](../Log/Development%20Log/Day%2016.md), [Day 17](../Log/Development%20Log/Day%2017.md), [Day 18](../Log/Development%20Log/Day%2018.md)
 - 테스트/문서화/CI 기준선: [Day 2](../Log/Development%20Log/Day%2002.md), [Day 3](../Log/Development%20Log/Day%2003.md), [Day 4](../Log/Development%20Log/Day%2004.md), [Day 17](../Log/Development%20Log/Day%2017.md), [Day 18](../Log/Development%20Log/Day%2018.md)
@@ -52,7 +52,7 @@ project: "Cubing Hub"
 
 - 최근 일자 로그: [Day 18](../Log/Development%20Log/Day%2018.md)
 - 현재 작업 요약: [Day 17](../Log/Development%20Log/Day%2017.md), [Day 18](../Log/Development%20Log/Day%2018.md)
-- 인증 설계 기준: [Authentication & Authorization Design](Authentication%20%26%20Authorization%20Design.md)
+- 인증 설계 기준: [Authentication & Authorization Design](Authentication%20&%20Authorization%20Design.md)
 - API 계약 기준: [API Specification](API%20Specification.md)
 - 현재 내부 일정: [Internal Schedule](Internal%20Schedule.internal.md)
 

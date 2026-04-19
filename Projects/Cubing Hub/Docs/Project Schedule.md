@@ -10,7 +10,7 @@ project: "Cubing Hub"
 # Cubing Hub 개발 일정 및 마감 로드맵
 
 > 이 문서는 공개 일정/로드맵 보조 문서입니다.
-> 정식 설계 문서는 [README](../README.md), [Project Overview](Project%20Overview.md), [System Architecture](System%20Architecture.md), [Deployment & Infrastructure Design](Deployment%20%26%20Infrastructure%20Design.md)를 참고하세요.
+> 정식 설계 문서는 [README](../README.md), [Project Overview](Project%20Overview.md), [System Architecture](System%20Architecture.md), [Deployment & Infrastructure Design](Deployment%20&%20Infrastructure%20Design.md)를 참고하세요.
 
 ```mermaid
 gantt

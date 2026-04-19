@@ -244,7 +244,7 @@ flowchart LR
 자세한 계약은 아래 문서를 기준으로 관리합니다.
 
 - [API Specification](Docs/API%20Specification.md)
-- [Authentication & Authorization Design](Docs/Authentication%20%26%20Authorization%20Design.md)
+- [Authentication & Authorization Design](Docs/Authentication%20&%20Authorization%20Design.md)
 - [Database Design](Docs/Database%20Design.md)
 
 ## 9. 로컬 실행 방법
@@ -332,9 +332,9 @@ npm run build
 - [Screen Specification](Docs/Screen%20Specification.md)
 - [API Specification](Docs/API%20Specification.md)
 - [Database Design](Docs/Database%20Design.md)
-- [Authentication & Authorization Design](Docs/Authentication%20%26%20Authorization%20Design.md)
+- [Authentication & Authorization Design](Docs/Authentication%20&%20Authorization%20Design.md)
 - [System Architecture](Docs/System%20Architecture.md)
-- [Deployment & Infrastructure Design](Docs/Deployment%20%26%20Infrastructure%20Design.md)
+- [Deployment & Infrastructure Design](Docs/Deployment%20&%20Infrastructure%20Design.md)
 - [Project Schedule](Docs/Project%20Schedule.md)
 
 ### 진행 기록
