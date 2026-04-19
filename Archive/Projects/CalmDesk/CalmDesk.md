@@ -88,4 +88,4 @@ LIMIT 10
 ## Internal Links
 
 - [[Areas/Career]]
-- [[Dashboard]]
+- [Dashboard](../../../Dashboard.md)

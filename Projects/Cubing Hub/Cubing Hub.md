@@ -62,5 +62,5 @@ LIMIT 20
 
 ## Internal Links
 
-- [[Dashboard]]
+- [Dashboard](../../Dashboard.md)
 - [[CodingTests Dashboard]]

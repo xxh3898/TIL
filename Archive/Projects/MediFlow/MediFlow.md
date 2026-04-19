@@ -52,4 +52,4 @@ SORT updated DESC
 ## Internal Links
 
 - [[Areas/Career]]
-- [[Dashboard]]
+- [Dashboard](../../../Dashboard.md)
