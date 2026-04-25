@@ -14,8 +14,8 @@
 ## 먼저 읽어볼 문서
 
 - [TIL](./TIL/)
-- [Cubing Hub Index](./Projects/Cubing%20Hub/Cubing%20Hub.md)
-- [Cubing Hub README](./Projects/Cubing%20Hub/README.md)
+- [Cubing Hub Index](./Archive/Projects/Cubing%20Hub/Cubing%20Hub.md)
+- [Cubing Hub README](./Archive/Projects/Cubing%20Hub/README.md)
 - [CalmDesk Archive](./Archive/Projects/CalmDesk/CalmDesk.md)
 - [MediFlow Archive](./Archive/Projects/MediFlow/MediFlow.md)
 - [DevQ&A Template](./Templates/DevQ&A.md)

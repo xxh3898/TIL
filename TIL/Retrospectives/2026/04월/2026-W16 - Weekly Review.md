@@ -86,6 +86,6 @@ project:
 
 - [2026-04-16 - Daily Log](./2026-04-16%20-%20Daily%20Log.md)
 - [2026-04-17 - TIL](./2026-04-17%20-%20TIL.md)
-- [Feature Backlog](../../../../Projects/Cubing%20Hub/Docs/Feature%20Backlog.md)
+- [Feature Backlog](../../../../Archive/Projects/Cubing%20Hub/Docs/Feature%20Backlog.md)
 - [면접 대시보드](../../../../Areas/Career/Interview%20Prep/%EB%A9%B4%EC%A0%91%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C.md)
 - [GitHub 링크가 NFD 파일명 때문에 깨지는 문제](../../../Troubleshooting/GitHub%20링크가%20NFD%20파일명%20때문에%20깨지는%20문제.md)

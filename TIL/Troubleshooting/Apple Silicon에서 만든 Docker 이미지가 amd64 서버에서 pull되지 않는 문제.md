@@ -79,6 +79,6 @@ source_ref: aws-deployment-preparation, post-deploy-wrap-up-and-cd-automation
 
 ## Internal Links
 
-- [[Projects/Cubing Hub/Cubing Hub]]
+- [[Archive/Projects/Cubing Hub/Cubing Hub]]
 - [[AI/Inbox/cubing-hub/20260421/02-aws-deployment-preparation/review-aws-deployment-preparation]]
 - [[AI/Inbox/cubing-hub/20260422/01-post-deploy-wrap-up-and-cd-automation/review-post-deploy-wrap-up-and-cd-automation]]
