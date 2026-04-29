@@ -29,7 +29,7 @@ source_ref: pkm-link-audit, pkm-link-fixes
 
 ## Symptom
 
-- `[[Dashboard]]`처럼 짧은 wikilink가 정적 링크 감사에서 ambiguous로 잡힌다.
+- [Dashboard](../../Dashboard.md)처럼 짧은 wikilink가 정적 링크 감사에서 ambiguous로 잡힌다.
 - Obsidian 안에서는 열려도, 다른 도구나 나중의 자동 검증에서는 의도 대상을 확정하지 못한다.
 - 템플릿과 실노트가 같은 이름을 공유할수록 이런 모호성이 반복된다.
 
@@ -50,7 +50,7 @@ source_ref: pkm-link-audit, pkm-link-fixes
 ## Root Cause
 
 - Obsidian은 짧은 wikilink를 유연하게 처리하지만, basename이 겹치면 정적 해석 기준은 흔들린다.
-- 이번 PKM 볼트에서는 `Dashboard.md`와 `Templates/Dashboard.md`가 같은 basename을 가져 `[[Dashboard]]` 17건이 모호해졌다.
+- 이번 PKM 볼트에서는 `Dashboard.md`와 `Templates/Dashboard.md`가 같은 basename을 가져 [Dashboard](../../Dashboard.md) 링크 17건이 모호해졌다.
 - 즉 문제의 핵심은 링크 문법 자체보다 "동일 basename을 가진 두 노드가 공존하는 구조"였다.
 
 ## Fix
@@ -61,7 +61,7 @@ source_ref: pkm-link-audit, pkm-link-fixes
 
 ## Verification
 
-- `[[Dashboard]]` occurrence 17건을 모두 치환했다.
+- [Dashboard](../../Dashboard.md) occurrence 17건을 모두 치환했다.
 - 변경 후 새 `[Dashboard](...)` 링크 17건이 모두 루트 `Dashboard.md`로 정상 해석되는 것을 확인했다.
 - `rg -n '\\[\\[Dashboard\\]\\]' --glob '*.md'` 결과가 비어 모호한 짧은 링크가 남지 않음을 확인했다.
 
